@@ -1,0 +1,55 @@
+
+
+.container{
+max-width:960px;
+margin: 0 auto;
+font-size: 24px;
+padding: 25px;
+}
+
+.parallax{
+  padding: 100px 35px;
+     background: transparent
+
+}
+
+.tittle{
+  z-index: 2;
+  position: relative;
+  font-size: 180px;
+  font-color: white;
+
+}
+
+.vertical-menu {
+  width: 200px;
+  float: right;
+}
+
+.vertical-menu a {
+  color: white; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+  border-left-style: solid;
+border-left-color: #fff;
+border-left-width: 4px;
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: white;
+  border-left-style: solid;
+border-left-color: #fff;
+border-left-width: 4px;
+}
+
+.clouds{
+  max-width: 960px;
+    z-index: 2;
+    margin-top: -360px;
+  }
