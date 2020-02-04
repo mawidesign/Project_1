@@ -1,10 +1,15 @@
+body{
+background-color: #664a88;
+margin: 0px;
+
+}
 
 
 .container{
 max-width:960px;
 margin: 0 auto;
 font-size: 24px;
-padding: 25px;
+padding: 25px 0px 0px 0px;
 }
 
 .parallax{
@@ -15,15 +20,34 @@ padding: 25px;
 
 .tittle{
   z-index: 2;
-  position: relative;
-  font-size: 180px;
-  font-color: white;
+    position: relative;
+    font-size: 140px;
+    margin-top: -50px;
 
 }
+
+.sub-tittle{
+  z-index: 2;
+      position: relative;
+
+}
+
+.text{
+  z-index: 2;
+  position: relative;
+  font-size: 14px;
+  margin: -150px 0px 180px 0px;
+  width: 490px;
+
+}
+
+
 
 .vertical-menu {
   width: 200px;
   float: right;
+  position:relative;
+z-index: 2;
 }
 
 .vertical-menu a {
@@ -51,5 +75,93 @@ border-left-width: 4px;
 .clouds{
   max-width: 960px;
     z-index: 2;
-    margin-top: -360px;
+margin-top: -210px;
+position:relative;
   }
+
+
+  .section2
+  {
+    background-color: #664a88;
+        padding: 40px 0px 0px 150px;
+  }
+
+  .section2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.column {
+  float: left;
+    width: 50%;
+
+}
+
+
+
+.img1{
+
+  width: 75%;
+}
+
+.img2{
+
+  width: 75%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.section3 {
+background-color: white;
+}
